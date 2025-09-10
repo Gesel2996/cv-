@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio - Ernesto Llanos</title>
+  <meta name="description" content="Portafolio profesional de Ernesto Llanos, especialista en TI, análisis de datos y automatización.">
+  <meta property="og:title" content="Portafolio - Ernesto Llanos">
+  <meta property="og:description" content="Portafolio profesional de Ernesto Llanos, especialista en TI, análisis de datos y automatización.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script>
+    tailwind = { config: { darkMode: 'class' } }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .card-hover {
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+    .progress-bar {
+      height: 8px;
+      border-radius: 4px;
+      background-color: #e5e7eb;
+      overflow: hidden;
+    }
+    .progress-value {
+      height: 100%;
+      border-radius: 4px;
+      background: linear-gradient(90deg, #3b82f6, #6366f1);
+      transition: width 1s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900 transition-colors duration-300">
+
+  <div class="fixed top-0 left-0 w-full h-full -z-10 pointer-events-none">
+    <svg width="100%" height="100%">
+      <circle cx="80%" cy="10%" r="200" fill="#3b82f6" fill-opacity="0.10"/>
+      <circle cx="20%" cy="80%" r="150" fill="#6366f1" fill-opacity="0.08"/>
+    </svg>
+  </div>
+
+  <header class="relative overflow-hidden bg-gradient-to-r from-blue-100 via-white to-blue-200 shadow p-10 mb-8" data-aos="fade-down">
+    <svg class="absolute left-0 top-0 w-full h-full opacity-10 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="circles" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+          <circle cx="20" cy="20" r="8" fill="#3b82f6" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#circles)" />
+    </svg>
+    <div class="relative max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start md:justify-between z-10 space-y-6 md:space-y-0">
+      <div class="flex flex-col items-center md:items-start space-y-4">
+        <h1 class="text-3xl font-bold text-blue-700 animate__animated animate__fadeInLeft" data-aos="fade-right">Ernesto Llanos</h1>
+        <p class="text-gray-700 mt-1 animate__animated animate__fadeInRight text-center md:text-left" data-aos="fade-left">
+          Coordinador TI | Analista Funcional | Analista Procesos | Data Analyst | Automation Testing
+        </p>
+        <div class="flex gap-4 mt-4">
+          <a href="cv-ernesto-llanos.pdf" download class="px-4 py-2 rounded-xl bg-green-600 text-white font-semibold shadow hover:bg-green-700 transition animate__animated animate__fadeInUp" data-aos="fade-up">
+            📄 Descargar CV
+          </a>
+          <a href="mailto:ErnestoluisLlanos@hotmail.com" class="px-4 py-2 rounded-xl bg-blue-500 text-white font-semibold shadow hover:bg-blue-700 transition animate__animated animate__fadeInUp" data-aos="fade-up" data-aos-delay="100">
+            ✉️ Contactar
+          </a>
+        </div>
+      </div>
+      <div class="mt-4 md:mt-0 text-sm text-gray-600 text-right space-y-3">
+        <p>📞 +34 642 042 251</p>
+        <p>📧 <a href="mailto:ErnestoluisLlanos@hotmail.com" class="text-blue-600">ErnestoluisLlanos@hotmail.com</a></p>
+        <p>📍 C. de El Españoleto, 7, Chamberí, 28010 Madrid</p>
+        <p class="space-x-2">🌐 
+          <a href="https://github.com/Gesel2996" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">GitHub</a> | 
+          <a href="https://www.linkedin.com/in/ernes-llanos-609385336/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 space-y-12">
+    <section data-aos="fade-up">
+      <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-4">Objetivo Laboral</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Profesional con 7 años de trayectoria en gestión de procesos tecnológicos, análisis de datos y automatización. 
+        Mi experiencia en diversos sectores y países (Perú, Chile, España) me ha permitido consolidar un conocimiento práctico y versátil. 
+        Mi compromiso es diseñar e implementar soluciones que aporten valor real y positivo a la empresa. 
+        He liderado la adopción y el desarrollo de metodologías ágiles en equipos de desarrollo optimizando su rendimiento y resultados.
+      </p>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-6">Experiencia Laboral</h2>
+      <div class="space-y-6">
+        <div class="bg-white shadow rounded-xl p-6 card-hover" data-aos="fade-right">
+          <h3 class="font-bold text-lg">
+            IT Coordinator Intern - 
+            <a href="https://www.instagram.com/pawtsmascotas/?igsh=ZjBuc2x3cHg0bG1r#" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Pawts</a>
+          </h3>
+          <p class="text-sm text-gray-500">02/2025 - 05/2025 | Madrid, España</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-700 space-y-1">
+            <li>Contribuí en la implementación y creación del aplicativo PAWTS, impulsando la escalabilidad del proyecto.</li>
+            <li>Desarrollé la documentación técnica y contribuí en la definición de la estructura del aplicativo.</li>
+            <li>Recomendé la adopción de nuevas tecnologías y herramientas de TI para mejorar el aplicativo.</li>
+            <li>Colaboré con el equipo de Front y Back para el desarrollo del aplicativo.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white shadow rounded-xl p-6 card-hover" data-aos="fade-left">
+          <h3 class="font-bold text-lg">
+            Analista de Proyectos TI - 
+            <a href="https://totalserviciosfinancieros.com.pe/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Total Servicios Financieros</a>
+          </h3>
+          <p class="text-sm text-gray-500">06/2024 - 12/2024 | Lima, Perú</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-700 space-y-1">
+            <li>Gestioné contratos de leasing and factoring, optimizando la evaluación de clientes mediante integración de bases de datos.</li>
+            <li>Facilité reuniones diarias del equipo, resolviendo impedimentos ágilmente.</li>
+            <li>Colaboré en la implementación de soluciones de almacenamiento de datos y reportes con Power BI.</li>
+            <li>Coordiné cierres operativos y contables utilizando consultas de bases de datos.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white shadow rounded-xl p-6 card-hover" data-aos="zoom-in">
+          <h3 class="font-bold text-lg">
+            Sr. Quality & Automated Testing - 
+            <a href="https://www.entel.cl/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Entel</a>
+          </h3>
+          <p class="text-sm text-gray-500">06/2021 - 04/2024 | Santiago, Chile</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-700 space-y-1">
+            <li>Lideré la optimización de pruebas automatizadas, reduciendo el tiempo de ejecución.</li>
+            <li>Colaboré con equipos de desarrollo, DevOps y producto para garantizar la calidad.</li>
+            <li>Integré el framework en pipelines de CI/CD con Jenkins y Bitbucket.</li>
+            <li>Coordiné el proceso de control de calidad y pruebas automatizadas en ciclos ágiles.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white shadow rounded-xl p-6 card-hover" data-aos="fade-right">
+          <h3 class="font-bold text-lg">
+            Coordinador de Procesos TI - 
+            <a href="https://www.talana.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">Talana</a>
+          </h3>
+          <p class="text-sm text-gray-500">06/2019 - 05/2021 | Santiago, Chile</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-700 space-y-1">
+            <li>Supervisé la implementación de proyectos tecnológicos para mejora de módulos clave.</li>
+            <li>Automaticé flujos de evaluación y generación de reportes utilizando Python.</li>
+            <li>Identifiqué oportunidades de mejora en sistemas y procesos.</li>
+            <li>Coordiné integraciones entre plataformas mediante APIs RESTful y SQL.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white shadow rounded-xl p-6 card-hover" data-aos="fade-left">
+          <h3 class="font-bold text-lg">
+            Analista Datos y Procesos TI - 
+            <a href="https://www.nttdata.com/global/en/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">NTT DATA Europe & Latam</a>
+          </h3>
+          <p class="text-sm text-gray-500">01/2017 - 04/2019 | Lima, Perú</p>
+          <ul class="list-disc pl-5 mt-2 text-gray-700 space-y-1">
+            <li>Participé en el proceso de gestión de incidencias y cambios siguiendo ITIL.</li>
+            <li>Optimicé reportes financieros usando Excel, SQL y Power BI.</li>
+            <li>Realicé levantamiento de requerimientos y documentación funcional.</li>
+            <li>Documenté y modelé procesos de TI mediante diagramas de flujo.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section data-aos="zoom-in">
+      <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-4">Formación & Certificaciones</h2>
+      <ul class="list-disc pl-5 text-gray-700 space-y-2">
+        <li><b>FP:</b> Administración de Sistemas Informáticos en Red, DigitechFP (08/2025 – 08/2026, Madrid)</li>
+        <li><b>Grado:</b> Ingeniería en Energía, UNAC (03/2016 – 03/2021, Lima)</li>
+        <li>Scrum Foundation Certification (03/2023 – 09/2023)</li>
+        <li>ISTQB Tester (01/2022 – 06/2022)</li>
+        <li>Data Centre Technician - IBM (01/2020 – 06/2020)</li>
+        <li>RPA - Automation Anywhere (05/2019 – 11/2019)</li>
+        <li>PCAP: Python Essentials - Cisco (04/2018 – 10/2018)</li>
+      </ul>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-6">Proyectos Destacados</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Pawts -->
+        <div class="bg-white shadow rounded-xl p-6 card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-lg text-blue-600">App Veterinaria PAWTS</h3>
+            <span class="text-sm text-gray-500">2025</span>
+          </div>
+          <p class="text-gray-700 mb-4">Desarrollo de aplicación móvil para gestión veterinaria integral. Implementación de historias clínicas digitales, agenda de citas y seguimiento de mascotas en tiempo real.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">React Native</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Node.js</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">MongoDB</span>
+          </div>
+          <div class="text-sm text-gray-600">
+            <p>⭐ Reducción del 45% en tiempo de gestión</p>
+            <p>⭐ Implementación de arquitectura escalable</p>
+          </div>
+        </div>
+
+        <!-- Total Servicios Financieros -->
+        <div class="bg-white shadow rounded-xl p-6 card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-lg text-blue-600">Sistema de Evaluación Financiera</h3>
+            <span class="text-sm text-gray-500">2024</span>
+          </div>
+          <p class="text-gray-700 mb-4">Desarrollo de sistema automatizado para evaluación de contratos leasing y factoring. Implementación de dashboards financieros y APIs bancarias.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Power BI</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Python</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">SQL Server</span>
+          </div>
+          <div class="text-sm text-gray-600">
+            <p>⭐ Reducción del 40% en tiempos de evaluación</p>
+            <p>⭐ Automatización de reportes críticos</p>
+          </div>
+        </div>
+
+        <!-- Entel -->
+        <div class="bg-white shadow rounded-xl p-6 card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-lg text-blue-600">Framework de Testing Automatizado</h3>
+            <span class="text-sm text-gray-500">2021-2024</span>
+          </div>
+          <p class="text-gray-700 mb-4">Framework de automatización de pruebas con integración CI/CD. Implementación de más de 1000 casos de prueba y reportería automatizada.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Selenium</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Python</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Jenkins</span>
+          </div>
+          <div class="text-sm text-gray-600">
+            <p>⭐ 85% de cobertura en pruebas</p>
+            <p>⭐ Reducción del 60% en tiempo de ejecución</p>
+          </div>
+        </div>
+
+        <!-- Talana -->
+        <div class="bg-white shadow rounded-xl p-6 card-hover">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="font-bold text-lg text-blue-600">Sistema de Automatización RRHH</h3>
+            <span class="text-sm text-gray-500">2019-2021</span>
+          </div>
+          <p class="text-gray-700 mb-4">Plataforma integral de RRHH con módulos de evaluación, asistencia y gestión documental. Integración con múltiples sistemas externos.</p>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Python</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">PostgreSQL</span>
+            <span class="px-2 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">APIs REST</span>
+          </div>
+          <div class="text-sm text-gray-600">
+            <p>⭐ 70% de mejora en eficiencia</p>
+            <p>⭐ 85% de satisfacción de usuario</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-6">Métricas y Logros</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white shadow rounded-xl p-6 text-center card-hover">
+          <div class="text-4xl font-bold text-blue-600 mb-2" id="metric1">1000</div>
+          <p class="text-gray-700">Casos de Prueba Automatizados</p>
+          <p class="text-sm text-gray-500 mt-2">Entel Chile</p>
+        </div>
+
+        <div class="bg-white shadow rounded-xl p-6 text-center card-hover">
+          <div class="text-4xl font-bold text-blue-600 mb-2" id="metric2">85</div>
+          <p class="text-gray-700">Cobertura de Testing</p>
+          <p class="text-sm text-gray-500 mt-2">Promedio en Proyectos</p>
+        </div>
+
+        <div class="bg-white shadow rounded-xl p-6 text-center card-hover">
+          <div class="text-4xl font-bold text-blue-600 mb-2" id="metric3">60</div>
+          <p class="text-gray-700">Reducción en Tiempos</p>
+          <p class="text-sm text-gray-500 mt-2">Automatización de Procesos</p>
+        </div>
+      </div>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-6">Habilidades Blandas</h2>
+      <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+        <div class="px-4 py-2 bg-blue-500 text-white rounded-full shadow-lg">Liderazgo de Equipos Ágiles</div>
+        <div class="px-4 py-2 bg-indigo-500 text-white rounded-full shadow-lg">Gestión de Proyectos</div>
+        <div class="px-4 py-2 bg-purple-500 text-white rounded-full shadow-lg">Comunicación Interdepartamental</div>
+        <div class="px-4 py-2 bg-pink-500 text-white rounded-full shadow-lg">Resolución de Problemas</div>
+        <div class="px-4 py-2 bg-red-500 text-white rounded-full shadow-lg">Análisis de Requerimientos</div>
+        <div class="px-4 py-2 bg-green-500 text-white rounded-full shadow-lg">Adaptabilidad a Nuevas Tecnologías</div>
+        <div class="px-4 py-2 bg-yellow-500 text-white rounded-full shadow-lg">Pensamiento Analítico</div>
+        <div class="px-4 py-2 bg-cyan-500 text-white rounded-full shadow-lg">Trabajo Bajo Presión</div>
+        <div class="px-4 py-2 bg-orange-500 text-white rounded-full shadow-lg">Mejora Continua</div>
+        <div class="px-4 py-2 bg-teal-500 text-white rounded-full shadow-lg">Orientación a Resultados</div>
+        <div class="px-4 py-2 bg-blue-400 text-white rounded-full shadow-lg">Mentoría y Capacitación</div>
+        <div class="px-4 py-2 bg-purple-400 text-white rounded-full shadow-lg">Gestión del Cambio</div>
+      </div>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-6">Habilidades Técnicas</h2>
+      <div class="space-y-4">
+        <div>
+          <p class="font-semibold text-blue-600 mb-1">Lenguajes de Programación:</p>
+          <div class="flex items-center">
+            <span class="w-32 text-gray-700">Python (6 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">JavaScript (4 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <p class="font-semibold text-blue-600 mb-1">Bases de Datos & SQL:</p>
+          <div class="flex items-center">
+            <span class="w-32 text-gray-700">SQL Server (6 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">PostgreSQL (4 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">MySQL (4 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <p class="font-semibold text-blue-600 mb-1">Automatización & Testing:</p>
+          <div class="flex items-center">
+            <span class="w-32 text-gray-700">Selenium (3 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">Postman (3 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">RPA</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <p class="font-semibold text-blue-600 mb-1">DevOps & Cloud:</p>
+          <div class="flex items-center">
+            <span class="w-32 text-gray-700">Jenkins (4 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">AWS (3 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">Kubernetes (3 años)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <p class="font-semibold text-blue-600 mb-1">Idiomas:</p>
+          <div class="flex items-center">
+            <span class="w-32 text-gray-700">Español (Nativo)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="flex items-center mt-1">
+            <span class="w-32 text-gray-700">Inglés (Intermedio)</span>
+            <div class="progress-bar flex-1 ml-2">
+              <div class="progress-value" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="bg-blue-700 text-white text-center py-4 mt-10 animate__animated animate__fadeInUp" data-aos="fade-up" data-aos-delay="200">
+    <p>&copy; 2025 Ernesto Llanos - Portafolio Profesional. Todos los derechos reservados.</p>
+    <p class="text-xs mt-2">Este sitio es solo para fines informativos y profesionales.</p>
+  </footer>
+
+  <a href="https://wa.me/34642042251" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50 flex items-center justify-center" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path fill="currentColor" d="M12 2C6.477 2 2 6.477 2 12c0 1.85.504 3.584 1.38 5.08L2 22l5.08-1.38A9.953 9.953 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2Zm0 18a7.951 7.951 0 0 1-4.07-1.15l-.29-.17-3.02.82.82-3.02-.17-.29A7.951 7.951 0 1 1 12 20Zm4.43-5.57c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.95-1.2-.72-.64-1.2-1.42-1.34-1.66-.14-.24-.02-.37.10-.49.10-.10.22-.26.34-.40.12-.14.16-.24.24-.40.08-.16.04-.30-.02-.42-.06-.12-.54-1.28-.74-1.76-.20-.48-.40-.41-.54-.42-.14-.01-.30-.01-.46-.01-.16 0-.41.06-.62.30-.21.24-.82.78-.81 1.89.01 1.11.80 2.18.92 2.33.12.15 1.59 2.43 3.85 3.32.54.23.96.37 1.29.47.54.18 1.04.15 1.43.09.43-.06 1.34-.57 1.53-1.12.19-.55.19-1.02.13-1.12-.06-.10-.21-.16-.45-.28Z"/>
+    </svg>
+  </a>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true,
+    });
+
+    // Animate numbers on scroll
+    const animateValue = (obj, start, end, duration) => {
+      let startTimestamp = null;
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        obj.innerHTML = Math.floor(progress * (end - start) + start);
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+      window.requestAnimationFrame(step);
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const value = parseInt(el.innerText);
+          animateValue(el, 0, value, 2000);
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('#metric1, #metric2, #metric3').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
